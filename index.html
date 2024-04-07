@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>blog</title>
         <link rel="stylesheet" href="blog.css">
+        <link rel="icon" type="image/x-icon" href="media/japan-512.png">
     </head>
     <header>
         <h1 id="page">Culture Japonaise</h1>
@@ -173,11 +174,9 @@
         
         <div id="article4" style="display:none">
             <article>
-                <p>dlakfsdjfklsfdflkjaslfsdf'skjafl'vflkdaslfjas'fkas'lfjas'flkjsfasl'kfjslfjsa'lkvclkxvjlslkfjdllsa
-                    lfkajdalfafds;lff;ldkafjd;akfjalskfdjsl;jf;aldjfiejajofdlkseoaf[wofjdals'fpewfaj[dofklas'flkjdfjaoewijfdalsdjfd;lfkajdalfafdsfadlsf
-                    adlfja;sdfjd;aslkfjaldsjkflsadjf
-                    asdfjlasfj;sdlkfjdaslkjf
-                    akfjlsdfj'a]]
+                <p>
+                    Dans l'histoire asiatique, les relations entre le Japon et ses voisins ont été caractérisées par une combinaison complexe de coopération, d'échanges culturels et de tensions. Tout au long des siècles, le Japon a entretenu des liens étroits avec d'autres nations asiatiques, partageant des idées, des traditions et des influences mutuelles. Cependant, ces relations ont également été marquées par des périodes de conflits et de rivalités, souvent exacerbées par des ambitions impérialistes japonaises et les traumatismes de la Seconde Guerre mondiale.<br><br>
+                    Une période de coopération et d'influences mutuelles a caractérisé les premiers contacts du Japon avec ses voisins asiatiques. À travers des échanges commerciaux, diplomatiques et culturels, le Japon a assimilé des éléments de la culture chinoise, coréenne et d'autres cultures asiatiques, tout en exportant sa propre culture et ses innovations technologiques. Par exemple, le bouddhisme a été introduit au Japon depuis la Chine au 6ème siècle puis assimilé au shintoïsme, façonnant profondément la religion et la culture japonaises. <br><br>
                 </p>
             </article>
         <script>
@@ -213,12 +212,14 @@
                     document.getElementById("page").innerHTML = "Himiko Yamatai, la naissance du Japon par une femme"
                     document.getElementById("page").style.textAlign="center";
                     document.getElementById("page").style.marginRight=20+"%";
+                    document.getElementById("page").style.marginTop=3+"%";
                     document.getElementsByClassName("wrap")[0].style.display="flex";
                    
                 }
                 else if (numb ==="4"){
-                    document.getElementById("page").innerHTML = "titre 4"
-                    document.getElementById("page").style.marginLeft=40+"%";
+                    document.getElementById("page").innerHTML = "Le Japon dans l'histoire asiatique"
+                    document.getElementById("page").style.marginLeft=5+"%";
+                    document.getElementById("page").style.fontSize=5+"rem";
                     document.getElementsByClassName("wrap")[0].style.display="flex"
                     
                 }
@@ -233,6 +234,7 @@
                     document.getElementById("page").style.marginLeft=20+"%";
                 }
                 document.getElementById("page").style.fontSize=7+"rem";
+                document.getElementById("page").style.marginTop=5+"%";
                 document.getElementsByClassName("wrap")[0].style.display="none";
                 document.getElementById("page").style.marginRight=0+"%";
                 for (var i=1;i<=4;i++){
