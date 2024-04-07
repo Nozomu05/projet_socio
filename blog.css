@@ -452,6 +452,33 @@ footer{
     flex:50%;
 }
 
+#part21{
+    display: flex;
+}
+
+#part21 div{
+    margin-top: 5%;
+    margin-right: 5%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    height:20rem;
+}
+
+#part21 div #kor{
+    width: 100%;
+}
+
+#part21 div #kor2{
+    margin-top: 5%;
+    width: 100%;
+}
+
+
+#part21 p{
+    flex: 50%;
+}
+
 #part20 img{
     height: 27rem;
     flex:50%;
