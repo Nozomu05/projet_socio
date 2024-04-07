@@ -185,11 +185,8 @@
                 document.getElementById(id2).style.display= "flex";
                 if (numb === "1"){
                     document.getElementById("page").innerHTML = "Une Puissance Technologique"
-                    if (screen.width>=1900){
-                        document.getElementById("page").style.marginLeft=17+"%";
-                    }
-                    else{
-                        document.getElementById("page").style.marginLeft=7+"%";
+                    if (screen.width>=1200){
+                        document.getElementById("page").style.marginLeft=6+"%";
                     }
                     
                     document.getElementById("page").style.fontSize=6+"rem";
@@ -198,11 +195,8 @@
                 }
                 else if (numb ==="2"){
                     document.getElementById("page").innerHTML = "Les mangas et les animes"
-                    if (screen.width>=1900){
-                        document.getElementById("page").style.marginLeft=13+"%";
-                    }
-                    else{
-                        document.getElementById("page").style.marginLeft=3+"%";
+                    if (screen.width>=1200){
+                        document.getElementById("page").style.marginLeft=1+"%";
                     }
                     document.getElementsByClassName("wrap")[0].style.display="flex";
                     
@@ -218,7 +212,9 @@
                 }
                 else if (numb ==="4"){
                     document.getElementById("page").innerHTML = "Le Japon dans l'histoire asiatique"
-                    document.getElementById("page").style.marginLeft=5+"%";
+                    if (screen.width>=1200){
+                        document.getElementById("page").style.marginLeft=4+"%";
+                    }
                     document.getElementById("page").style.fontSize=5+"rem";
                     document.getElementsByClassName("wrap")[0].style.display="flex"
                     
