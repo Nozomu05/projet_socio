@@ -321,6 +321,7 @@ article h1{
 #article1 article, #article2 article, #article3 article, #article4 article{
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 20rem;
 }
 
 footer{
@@ -393,8 +394,50 @@ footer{
     margin-left: 0.5rem;
 }
 
+#article3 div{
+    display: flex;
+}
+
+#article3 p{
+    flex:50%;
+}
+
+#part11 div{
+    flex:50%;
+    display:inline-block;
+    background-image: url("media/Picture7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 90%;
+    margin-left: 5%;
+    height: 27rem;
+    margin-top: 3%;
+}
+
 #article3 img{
     width: 100%;
+}
+
+#part10{
+    display: flex;
+}
+
+#part10 p{
+    flex:50%;
+}
+
+#part10 div{
+    flex:50%;
+    display:inline-block;
+    background-image: url("media/Picture10.jpg");
+    background-position-x: center;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    margin-right: 5%;
+    height: 27rem;
+    margin-top: 3%;
 }
 
 @media screen and (min-width:1200px){
