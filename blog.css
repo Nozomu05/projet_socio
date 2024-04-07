@@ -49,13 +49,13 @@ body{
 
 
 .but:hover{
-    color:rgb(254, 254, 254);
+    color:white;
 }
 
 .but span{
     display: block;
     position:absolute;
-    background:rgb(255, 255, 255);
+    background:white;
 }
 
 .but span:nth-child(1){
@@ -161,7 +161,7 @@ body{
 
 
 #trois{
-    background-image: url("media/pic1.jpg");
+    background-image: url("media/Picture5.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -171,14 +171,26 @@ body{
 }
 
 #trois:hover{
-    background-image: url("media/Picture2BW.png");
+    background-image: url("media/Picture5BW\ \(2\).png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #quatre{
+    background-image: url("media/1b68fd4add27d3c0d318680a0b0d0f9e-japan-artistic-flag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
     padding:4rem 3.8rem;
+}
+
+#quatre:hover{
+    background-image: url("media/Untitled\ design.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
