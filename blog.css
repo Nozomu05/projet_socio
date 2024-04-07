@@ -440,6 +440,25 @@ footer{
     margin-top: 3%;
 }
 
+#article4 img{
+    width: 100%;
+}
+
+#part20{
+    display: flex;
+}
+
+#part20 p{
+    flex:50%;
+}
+
+#part20 img{
+    height: 27rem;
+    flex:50%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
 @media screen and (min-width:1200px){
     #page{
         margin-left:20%; 
