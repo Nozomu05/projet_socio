@@ -161,8 +161,20 @@ body{
 
 
 #trois{
+    background-image: url("media/Picture2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
     font-size: 3.85rem;
     padding:4.4rem 4.4rem;
+}
+
+#trois:hover{
+    background-image: url("media/Picture2BW.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #quatre{
